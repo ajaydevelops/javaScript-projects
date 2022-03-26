@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="mainView">
+      <div id="topView">
+        <h1>Weather</h1>
+        <form id="cityForm">
+          <label>Enter a location for weather information</label>
+          <input type="text" name="city" />
+        </form>
+      </div>
+      <div id="card" class="det">
+        <img id="weatImg" src="https://via.placeholder.com/400X300" />
+        <div id="icon">
+          <img />
+        </div>
+        <div id="details">
+          <h5>city name</h5>
+          <div>Weather Condition</div>
+          <div>
+            <span>temperature</span>
+            <span>&deg; C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
