@@ -1,0 +1,21 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.filtered {
+  display: none;
+}
