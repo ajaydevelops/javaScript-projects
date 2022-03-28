@@ -129,19 +129,17 @@ function showItems() {
   }
 
   for (let i = 0; i < showItemsArr.length; i++) {
-    img = document.createElement("img");
     div = document.createElement("div");
+    div.id = "innerView"
+    img = document.createElement("img");
+    img.src = showItemsArr[i].image;
     paraA = document.createElement("p");
     paraB = document.createElement("p");
     paraA.textContent = `${showItemsArr[i].title}`;
     paraB.textContent = `${showItemsArr[i].price}`;
+    div.appendChild(img);
     div.appendChild(paraA);
     div.appendChild(paraB);
-    div.style.width = "50%";
-    img.src = showItemsArr[i].image;
-    img.style.length = "200px";
-    img.style.height = "200px";
-    mainContent.appendChild(img);
     mainContent.appendChild(div);
   }
 }

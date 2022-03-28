@@ -221,15 +221,26 @@ Products
 }
 
 body {
-  padding: 20px 50px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #000000bd;
+  color: #fff;
 }
 
-#container {
-  display: flex;
+h3 {
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+#container {  
+  display: flex; 
 }
 
 aside {
-  flex: 1;
+  background-color: #000000ba;
+  height: 360px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 #buttons {
@@ -243,11 +254,15 @@ button {
   background: none;
   padding: 5px;
   cursor: pointer;
+  width: 70px;
+  background-color: #b8860bb0;
 }
 
 input {
   padding: 5px;
   border-radius: 5px;
+  height: 40px;
+  border: none;
 }
 
 h6 {
@@ -259,10 +274,31 @@ h6 {
 }
 
 #mainContent {
-  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
 }
 
 button:active {
   font-weight: bold;
-  background-color: pink;
+}
+
+#innerView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 40px 0px;
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+img {
+  height: 170px;
+  width: 295px;
+  box-shadow: none;
+  border-radius: 5px;
+  border: 2px solid floralwhite;
 }
