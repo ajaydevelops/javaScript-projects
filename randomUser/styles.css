@@ -252,10 +252,37 @@ p {
   }
 }
 
+body {
+  font-family: 'Be Vietnam Pro', sans-serif; 
+}
+
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#mainView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+img {
+border-radius: unset;
+box-shadow: unset;
+width: 250px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.icon {
+  margin-top: 20px;
 }
 
 button {
