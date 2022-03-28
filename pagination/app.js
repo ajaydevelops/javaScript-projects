@@ -13,7 +13,7 @@ const prevBtn = document.getElementById("prev");
 
 const nextBtn = document.getElementById("next");
 
-const container = document.getElementById("container");
+const container = document.getElementById("mainContent");
 
 const newButton = document.getElementById("newBtn");
 
@@ -38,6 +38,8 @@ let addPerson = () => {
   let div;
   let img;
   let para;
+  let upperCase;
+  let content;
   let link;
   let start = (pageNumber - 1) * 8;
   let end = pageNumber * 8;
@@ -50,8 +52,12 @@ let addPerson = () => {
     img.src = showData[i].avatar_url;
     img.classList.add("avatar");
     para = document.createElement("p");
-    para.textContent = showData[i].login;
+    upperCase = showData[i].login.charAt(0).toUpperCase();
+    content = showData[i].login.slice(1, showData[i].login.length);
+    para.textContent = `${upperCase}${content}`
+    console.log(para.textContent);
     link = document.createElement("a");
+    link.target = "-blank";
     link.textContent = "VIEW PROFILE";
     link.href = showData[i].html_url;
     div.appendChild(img);

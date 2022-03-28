@@ -224,30 +224,64 @@ Pagination
 }
 
 body {
-  /* background-color: skyblue; */
+  background-color: saddlebrown;
+  color: #fff;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .personBox {
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
   padding: 20px;
-  /* background-color: #fff; */
+  margin: 0px 50px 50px 0px;
+ } 
+
+#mainContent {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  color: #000;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: navy;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .avatar {
-  height: 100px;
+  box-shadow: none;
+  border: 2px solid #000;
+  border-radius: 200px 200px;
+  width: 250px;
 }
 
+
 #btnBox {
-  margin: 10px;
+  margin-top: 40px;
 }
 
 #btnBox {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 4px;
 }
 
 button {
-  padding: 5px;
+  margin: 0px 4px 0px 0px;
+  padding: 4px;
+  width: 50px;
 }
 
 .orderBtn {
@@ -255,5 +289,5 @@ button {
 }
 
 .active {
-  background-color: aqua;
+  border: 2px solid white;
 }
