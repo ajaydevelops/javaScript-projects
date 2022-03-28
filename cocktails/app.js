@@ -35,7 +35,7 @@ let addDrink = () => {
     link.appendChild(div);
     mainView.appendChild(link);
   }
-
+  let n;
   mainView.addEventListener("click", (e) => {
     let currenSrc = e.target.src;
     let a = drinks.filter((element) => currenSrc === element.strDrinkThumb);

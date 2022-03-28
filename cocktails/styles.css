@@ -299,18 +299,17 @@ input::placeholder {
 }
 
 body {
-  background-color: #d4dfe9c7;
+  background-color: #9bc8dad4;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #container {
-  width: 80%;
-  margin: 80px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
 }
 
 h1 {
@@ -318,27 +317,29 @@ h1 {
 }
 
 input {
-  margin-top: 20px;
-  width: 35%;
+  margin-top: 40px;
+  width: 40%;
+  height: 50px;
 }
 
 #mainView {
-  width: 90%;
   margin-top: 100px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .drink {
   cursor: pointer;
-  padding: 0px 20px 20px 20px;
+  margin: 0px 60px 30px 0px;
 }
 
 .img {
   height: 250px;
   width: 320px;
-  border: 8px solid #fff;
+  border: 2px solid #fff;
   border-radius: 10px;
+  box-shadow: unset;
 }
 
 .paraBox {
@@ -347,12 +348,14 @@ input {
   position: relative;
   bottom: 50px;
   left: 20px;
+
 }
 
 .name {
   color: #fff;
   background-color: #000;
   border-radius: 5px;
+  border: 2px solid orangered;
   padding: 10px 30px;
   font-size: 30px;
   font-weight: bold;
@@ -361,8 +364,11 @@ input {
 
 button {
   border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
   background-color: #0c9eda8a;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
   letter-spacing: 3px;
 }
