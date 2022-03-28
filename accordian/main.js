@@ -1,15 +1,21 @@
 let button = document.getElementById("btn");
 
-let p = document.querySelector("p");
+let icon = document.getElementById("icon");
 
-p.style.display = "none";
+let para = document.getElementById("para");
+
+let hr = document.querySelector("hr");
 
 button.addEventListener("click", () => {
-  if (button.innerText === "+") {
-    p.style.display = "block";
-    button.innerText = "-";
+  if (icon.className === "fa-solid fa-arrow-down"){
+    hr.style.display = "block";
+    para.style.display = "block";
+    icon.classList.remove("fa-solid", "fa-arrow-down")
+    icon.classList.add("fa-solid", "fa-arrow-up");
   } else {
-    button.innerText = "+";
-    p.style.display = "none";
+    hr.style.display = "none";
+    icon.classList.remove("fa-solid", "fa-arrow-up")
+    icon.classList.add("fa-solid", "fa-arrow-down");
+    para.style.display = "none";
   }
 });
