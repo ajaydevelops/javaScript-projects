@@ -281,22 +281,28 @@ p {
   color: #000;
 }
 
-.icon {
+#btnBox {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 button {
-  border: none;
+  width: 50px;
+  padding: 6px;
+  margin-left: 20px;
+  color: #fff;
 }
 
 i {
-  font-size: 30px;
+  margin: 0px;
+  font-size: 20px
 }
 
 #randomUser {
   letter-spacing: 3px;
-  /* background-color: #2394c2; */
   padding: 10px;
   color: #fff;
   border-radius: 5px;
+  width: 200px;
 }
