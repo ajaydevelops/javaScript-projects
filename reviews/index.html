@@ -3,24 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter</title>
+    <title>Reviews</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- styles -->
+    <link rel="stylesheet" href="../style.css"/>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>review project</h1>
-    <div style="display: flex; justify-content: space-around;">
-      <button id="preBtn">Previous</button>
-      <div id="reviewBox">
-        <img id="img" />
+    <div id="container">
+      <h3 class="projectTitle">Review Project:</h3>
+      <div id="mainView">
+        <button id="preBtn">Previous</button>
+          <img id="img" />
+        <button id="nextBtn">Next</button>
       </div>
-      <button id="nextBtn">Next</button>
     </div>
   </body>
   <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/dc7cc6e809.js" crossorigin="anonymous"></script>
 </html>

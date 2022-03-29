@@ -273,3 +273,32 @@ main {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
+
+body {
+  background-color: #42C2FF;
+  height: 710px;
+}
+
+#container {
+  width: 60%;
+  height: 100%;
+}
+
+#mainView{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  font-size: 15x;
+  color: black;
+  background-color: #85F4FF;
+  border: 2px solid navy;
+}

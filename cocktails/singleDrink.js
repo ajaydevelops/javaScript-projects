@@ -4,13 +4,6 @@
 
 let mainView = document.getElementById("mainView");
 
-// getCocktails()
-//   .then((data) => {
-//     drinks = data;
-//     getSingleDrink();
-//   })
-//   .catch((error) => console.log(error));
-
 let getSingleDrink = () => {
   let a = localStorage.getItem("seleDrin");
   let b = JSON.parse(a);

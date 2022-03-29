@@ -253,6 +253,8 @@ p {
 }
 
 body {
+  color: #fff;
+  background-color: #495371;
   font-family: 'Be Vietnam Pro', sans-serif; 
 }
 
@@ -267,18 +269,22 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  padding: 20px;
+  background-color: #74959A;
+  border-radius: 10px; 
 }
 
 img {
 border-radius: unset;
 box-shadow: unset;
 width: 250px;
+border-radius: 10px;
 }
 
 p {
   margin-top: 20px;
   margin-bottom: 0px;
-  color: #000;
+  color: #fff
 }
 
 #btnBox {
@@ -292,6 +298,7 @@ button {
   padding: 6px;
   margin-left: 20px;
   color: #fff;
+  background-color:#98B4AA;
 }
 
 i {
@@ -305,4 +312,5 @@ i {
   color: #fff;
   border-radius: 5px;
   width: 200px;
+  margin-top: 30px;
 }

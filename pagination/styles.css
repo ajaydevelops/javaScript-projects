@@ -224,7 +224,7 @@ Pagination
 }
 
 body {
-  background-color: saddlebrown;
+  background-color: #9C0F48;
   color: #fff;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
@@ -254,7 +254,7 @@ a {
   font-size: 15px;
   text-decoration: none;
   color: #fff;
-  background-color: navy;
+  background-color: #D67D3E;
   border-radius: 5px;
   padding: 5px;
 }
@@ -279,9 +279,11 @@ a {
 }
 
 button {
+  color: #000;
   margin: 0px 4px 0px 0px;
   padding: 4px;
   width: 50px;
+  background-color: #F9E4D4 
 }
 
 .orderBtn {
@@ -289,5 +291,6 @@ button {
 }
 
 .active {
-  border: 2px solid white;
+  color: #fff;
+  background-color: navy;
 }

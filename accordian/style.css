@@ -1,6 +1,7 @@
 body {
+  color: #fff;
   justify-content: center;
-  background-color: #708090bd;
+  background-color: #05595B;
 }
 
 #container {
@@ -10,9 +11,9 @@ body {
 #topView {
   display: flex;
   flex-direction: column;
-  background-color: #59a559e0;
+  background-color: #062C30;
   padding: 10px;
-  border: 2px solid #494f54;
+  border: 2px solid aliceblue;
 }
 
 #btnView {
@@ -22,12 +23,16 @@ body {
 }
 
 button {
-  border: 2px solid papayawhip;
+  border: 1px solid white;
+  background-color: navy;
   width: 50px;
-  padding: 5px;
+  padding: 6px 10px;
   display: flex;
-  align-items: center;
-  margin-top: 0px;
+  justify-content: center;
+}
+
+i {
+  margin: 0px;
 }
 
 hr {

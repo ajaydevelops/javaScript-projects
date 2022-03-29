@@ -54,8 +54,7 @@ let addPerson = () => {
     para = document.createElement("p");
     upperCase = showData[i].login.charAt(0).toUpperCase();
     content = showData[i].login.slice(1, showData[i].login.length);
-    para.textContent = `${upperCase}${content}`
-    console.log(para.textContent);
+    para.textContent = `${upperCase}${content}`;
     link = document.createElement("a");
     link.target = "-blank";
     link.textContent = "VIEW PROFILE";

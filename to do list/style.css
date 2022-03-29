@@ -1,19 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9A0680;
+  height: 697px;
+}
+
+h3 {
+  color: #fff;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  background-color: #160040;
+  width: 40%;
+  height: 60%;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 20px;
+} 
+
+form { 
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 30px;
+}
+
 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 10px
 }
 
 #add {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 20px;
 }
 
 button {
   cursor: pointer;
   background: none;
   border: none;
+  width: 0px;
+  margin: 0px;
 }
 
 .filtered {

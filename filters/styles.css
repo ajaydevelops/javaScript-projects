@@ -255,7 +255,7 @@ button {
   padding: 5px;
   cursor: pointer;
   width: 70px;
-  background-color: #b8860bb0;
+  background-color: #424242;
 }
 
 input {
@@ -279,8 +279,8 @@ h6 {
   margin-left: 30px;
 }
 
-button:active {
-  font-weight: bold;
+button:hover {
+  background-color: #000;
 }
 
 #innerView {
