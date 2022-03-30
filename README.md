@@ -1,6 +1,6 @@
 # Vanilla JS Projects
 
-[My Javascript Project](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/?referralCode=DD9FA6C0D976918D3E1C)
+[My Javascript Project](https://ajayjsprojects.netlify.app/)
 
 #### Projects
 
