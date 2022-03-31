@@ -27,7 +27,7 @@ h2 {
   font-size: 20px;
 } 
 
-form { 
+form {
   display: flex;
   justify-content: center;
   width: 80%;
