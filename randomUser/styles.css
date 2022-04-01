@@ -294,8 +294,12 @@ p {
 }
 
 button {
-  width: 50px;
-  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
   margin-left: 20px;
   color: #fff;
   background-color:#98B4AA;

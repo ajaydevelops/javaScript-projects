@@ -118,7 +118,7 @@ li{
 }
 
 li :hover {
-   box-shadow: 2px 3px;
-}
+    box-shadow: rgb(98, 19, 57) 4px 3px 7px 1px;
+} 
 
 

@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #062C30;
-  padding: 10px;
+  padding: 10px 20px;
   border: 2px solid aliceblue;
 }
 
